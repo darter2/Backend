@@ -1,6 +1,7 @@
 // at 1:20:00 in the tutorial video 
 //setup.. this is similar to when we use our default tags in html
 const express = require('express')
+const port = process.env.PORT || 4000
 //we have to use cors in order to host a front end and backend on the same device
 var cors = require('cors')
 
